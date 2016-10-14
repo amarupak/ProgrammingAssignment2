@@ -14,8 +14,8 @@ makeCacheMatrix <- function(x = matrix()) { 
     getinverse <- function() inv  
     list(set = set, get = get,       
          setinverse = setinverse,       
-         getinverse =getinverse)
-   }
+         getinverse = getinverse)
+  }
       
 ## Cashesolve performs inverse of the matrix that is generated or cached 
 ## by the makeCachMatrix
